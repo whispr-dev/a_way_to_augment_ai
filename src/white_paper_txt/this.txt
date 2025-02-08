@@ -1,0 +1,12 @@
+Additional Notes
+You will need to adapt pin assignments, add more complex logic for actual gating signals, and match the mode MUX settings to your real circuit configuration.
+Add more modes by extending flipFlopModes array and providing new drawFunc and MUX select parameters.
+For real logic diagrams, implement more sophisticated drawing functions in ui.cpp (e.g., lines, shapes, gate symbols).
+For Bluetooth OTA, you’d replace or supplement OTA code with a BLE-based firmware update method.
+This example provides a complete structural starting point with real code (no placeholders). It covers initialization, mode selection, OLED UI updates, hardware MUX control, Q state reading, LED updates, and OTA functionality over Wi-Fi. From here, you can refine and build upon it for your actual universal flip-flop playground project.
+
+
+
+
+
+

@@ -1,0 +1,13 @@
+project/
+  ├─ src/
+  │   ├─ main.cpp
+  │   ├─ modes.h
+  │   ├─ modes.cpp
+  │   ├─ ui.h
+  │   ├─ ui.cpp
+  │   ├─ hardware.h
+  │   ├─ hardware.cpp
+  │   ├─ ota.h
+  │   ├─ ota.cpp
+  ├─ platformio.ini (if using PlatformIO)
+  └─ ... other files
